@@ -1,0 +1,245 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 12, 2018, 7:19:35 PM
+    Author     : Uzzal's PC
+*/
+
+body{
+    margin:auto 10%; 
+    background:gray; 
+}
+
+#wraffer{
+    background-color:white;
+    width:100%; 
+    height:auto; 
+}
+
+#header_wraffer{
+    background-color:white;
+    width:100%;
+    height:200px; 
+    float:left; 
+}
+
+#logo{
+    
+    width:20%;
+    height: 200px;
+    float: right;
+    margin-right:0.3%;  
+
+}
+#logo img{
+    width:100%;
+    height:200px; 
+}
+
+#banner{
+    background-color:lightgreen;
+    width:79.7%;
+    height: 200px;
+    float:left; 
+    color:red;
+    text-align:center;
+
+    font-size: 30px;
+
+
+}
+
+
+#menu{
+    background:brown;
+    width:100%;
+    height:70px; 
+    margin-top:3px;
+    margin-bottom: 3px;
+    float:left; 
+
+}
+
+#menu ul{
+    margin:0px;
+    padding:0px; 
+}
+
+#menu ul li{
+    float:left;
+    list-style-type: none;
+    margin-left:20px; 
+    font-size:20px;
+    padding:23px;
+    width:13%; 
+    /*height:70px;*/ 
+    text-align:center; 
+    transition:all 1s; 
+}
+
+
+#menu ul li a{
+    text-decoration:none;
+    color:white; 
+    display: block;
+}
+
+
+#menu ul :hover{
+    
+    color:red; 
+    
+    
+}
+
+#slider{
+    background:yellowgreen;
+    width:100%;
+    height:400px;
+float:left; 
+}
+
+#slider img{
+    float:left;
+    width:30%;
+    height:200px;
+    margin:10.5px;
+    padding:6px;
+    border:1px solid#666;
+    background:#222;  
+}
+#slider h2{
+    text-align: center;
+     font-size: 22px;
+     color:black;
+     padding-top: 10px;
+     text-transform: uppercase;
+     
+     letter-spacing: 2px;
+     word-spacing: 2px;
+     font-weight: normal;
+}
+#slider p{
+    font-size: 50px;
+    color:white;
+    font-size: 13px;
+    text-align: justify;
+    padding:20px 20px 0 20px;
+    
+}
+
+#content_wraffer{
+    background-color:white;
+    width:100%;
+    height:auto; 
+    margin-top:3px;
+    float:left; 
+}
+
+#left_content{
+    background-color:rosybrown;
+    width:25%;
+    height:auto; 
+    float:left;
+
+}
+#left_content ul{
+    margin:0px;
+    padding:0px; 
+}
+
+#left_content ul li{
+    /*float:left;*/
+    background:brown;
+    list-style-type: none;
+    margin-bottom:2px; 
+    font-size:20px;
+    padding:23px;
+    width:83%; 
+    /*height:70px;*/ 
+    text-align:center; 
+     
+}
+
+#left_content ul li a{
+    text-decoration:none;
+    color:white; 
+}
+#left_content ul :hover{
+    background: violet;
+    color:white; 
+    transition:all 1s;
+}
+
+#middle_content{
+    background-color:steelblue;
+    width:50%;
+    height:auto; 
+    float:left;
+
+}
+#middle_content ul{
+    margin:0px;
+    padding:0px; 
+}
+#middle_content ul li{
+    /*float:left;*/
+    background:red;
+    list-style-type: none;
+    margin-bottom:2px; 
+    font-size:20px;
+    padding:23px;
+    width:83%; 
+    /*height:75px;*/ 
+    text-align:center; 
+     
+}
+#middle_content ul li a{
+    text-decoration:none;
+    color:black; 
+}
+#right_content{
+    background-color:rosybrown;
+    width:25%;
+    height:auto; 
+    float:left;
+
+}
+#right_content ul{
+    margin:0px;
+    padding:0px; 
+}
+#right_content ul li{
+    /*float:left;*/
+    background:brown;
+    list-style-type: none;
+    margin-bottom:2px; 
+    font-size:20px;
+    padding:23px;
+    width:83%; 
+    /*height:75px;*/ 
+    text-align:center; 
+     
+}
+#right_content ul li a{
+    text-decoration:none;
+    color:white; 
+}
+#right_content ul :hover{
+    background: violet;
+    color:white; 
+    transition:all 1s;
+}
+
+#footer{
+    background:skyblue;
+    width:100%;
+    height:70px; 
+    margin-top:3px;
+    float:left; 
+    text-align: center;
+    color:black; 
+}
